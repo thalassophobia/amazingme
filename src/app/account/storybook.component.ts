@@ -25,9 +25,6 @@ import { achDialogsService} from './achDialog.service';
 
 import {AngularFire, FirebaseObjectObservable,FirebaseListObservable,AuthProviders, AuthMethods} from 'angularfire2';
 import {Subject} from 'rxjs/Subject';
-
-import { CeiboShare } from 'ng2-social-share';
-import {ShareButtonsModule} from "ng2-sharebuttons";
 // todo: change to ng2-bootstrap
 //import { ModalDirective } from '../../../node_modules/ng2-bootstrap/components/modal/modal.component';
  
@@ -284,11 +281,8 @@ export class StorybookComponent implements OnInit {
       .confirm(milestone, this.viewContainerRef)
       .subscribe(res => {
         this.refreshPage(res);
-        this.userChecklist.update('Milestone'+ milestone.id, { progress: milestone.progress,notes: milestone.notes, 
-          submilestone: {checkbox1: {state:milestone.submilestone.checkbox1.state,name:milestone.submilestone.checkbox1.name},checkbox2: {state:milestone.submilestone.checkbox2.state,name:milestone.submilestone.checkbox2.name},
-          checkbox3: {state:milestone.submilestone.checkbox3.state,name:milestone.submilestone.checkbox3.name},checkbox4: {state:milestone.submilestone.checkbox4.state,name:milestone.submilestone.checkbox4.name} }});
-        
-       
+        this.userChecklist.update('Milestone'+ milestone.id, { progress: milestone.progress });
+        this.userChecklist.update('Milestone'+ milestone.id, { notes: milestone.notes, checkbox1: milestone.checkbox1, checkbox2: milestone.checkbox2,checkbox3: milestone.checkbox3,checkbox4: milestone.checkbox4});
         /*Log Progress*/
         let list = this.af.database.list('/userList/'+this.key+'/userLogs'+'/recordProgress');
         list.push({ time: Date(), name: milestone.name, progress: milestone.progress, type: "dialog", location:"story" });
@@ -426,8 +420,6 @@ export class StorybookComponent implements OnInit {
     return Promise.resolve(AchReport);
   }
 
-public linkToShare = 'https://bridget-ma.com';
-// public imageUrl = 'https://avatars2.githubusercontent.com/u/10674541?v=3&s=200';
 
   // @HostListener('mouseenter') onMouseEnter() {
   //   this.highlight('yellow');
@@ -449,7 +441,6 @@ public linkToShare = 'https://bridget-ma.com';
 
 
 }
-
 
 
 // @Directive({

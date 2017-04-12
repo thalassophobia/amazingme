@@ -5,18 +5,17 @@ import { RouterModule } from '@angular/router';
 import { ChecklistCenterComponent }     from './checklist-center.component';
 // import { ChecklistComponent }       from './checklist.component';
 //import { ChecklistCenterHomeComponent } from './checklist-center-home.component';
-// import { MilestoneDetailComponent }     from './milestone-detail.component';
-import { MaterialModule } from '@angular/material';
+import { MilestoneDetailComponent }     from './milestone-detail.component';
+
 
 import { CanDeactivateGuard }    from './can-deactivate-guard.service';
 
-// import { MilestoneDetailResolve }   from './milestone-detail-resolve.service';
+import { MilestoneDetailResolve }   from './milestone-detail-resolve.service';
 
 
 
 @NgModule({
   imports: [
-    MaterialModule,
     RouterModule.forChild([
       {
         path: '',
@@ -48,7 +47,7 @@ import { CanDeactivateGuard }    from './can-deactivate-guard.service';
     RouterModule
   ],
   providers: [
-    // MilestoneDetailResolve
+    MilestoneDetailResolve
   ]
 })
 export class ChecklistCenterRoutingModule { }

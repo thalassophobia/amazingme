@@ -55,24 +55,6 @@ export class LoginComponent {
         "notes" : "This is the note for this milestone",
         "progress" : 0,
         "video" : false,
-        "submilestone" : {
-             "checkbox1" : {
-                "name" : "Copy adults",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "Copy friends",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "Copy behaviors",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "Copy conversations",
-                "state" : false
-            }
-        }
       },
       "Milestone10" : {
         "detail" : "In this video, a little boy follows instructions with 2 steps",
@@ -84,24 +66,6 @@ export class LoginComponent {
         "notes" : "This is the note for this milestone",
         "progress" : 0,
         "video" : true,
-        "submilestone" : {
-             "checkbox1" : {
-                "name" : "1 step",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "2 steps",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "3 steps",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "4 steps or more",
-                "state" : false
-            }
-        }
       },
       "Milestone11" : {
         "detail" : "This little boy is able to name many familiar things.",
@@ -112,25 +76,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone11.jpg",
         "name" : "Can name most familiar things",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-        "submilestone" : {
-             "checkbox1" : {
-                "name" : "Food",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "Furniture",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "Body parts",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "Toys",
-                "state" : false
-            }
-        }
+        "progress" : 0
       },
       "Milestone12" : {
         "detail" : "In this video, a little girl displays her understanding of in, on, and under.",
@@ -141,25 +87,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone12.jpg",
         "name" : "Understands words like 'in', 'on' and 'under'",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-        "submilestone" : {
-             "checkbox1" : {
-                "name" : "In",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "On",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "Under",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "In front/ behind",
-                "state" : false
-            }
-        }
+        "progress" : 0
       },
       "Milestone13" : {
         "detail" : "Detail explanations here ",
@@ -170,24 +98,6 @@ export class LoginComponent {
         "notes" : "This is the note for this milestone",
         "progress" : 0,
         "video" : false,
-        "submilestone" : {
-             "checkbox1" : {
-                "name" : "First name",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "Age",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "Sex",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "Other",
-                "state" : false
-            }
-        }
       },
       "Milestone14" : {
         "detail" : "By naming a friend, this little boy is displaying a 3-year language/communication milestone.",
@@ -209,25 +119,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone15.jpg",
         "name" : "Says works like 'I', 'me', 'we' and 'you' and some plurals (cars, dogs, cats)",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-        "submilestone" : {
-             "checkbox1" : {
-                "name" : "'I/Me'",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "'We'",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "'You'",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "Plurals",
-                "state" : false
-            }
-        }
+        "progress" : 0
       },
       "Milestone16" : {
         "detail" : "This video shows how a 3 year-old talks well enough for strangers to understand most of the time.",
@@ -249,25 +141,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone17.jpg",
         "name" : "Carries on a conversation using 2 to 3 sentences",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-        "submilestone" : {
-             "checkbox1" : {
-                "name" : "2 sentences",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "3 sentences",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "4 sentences",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "5 or more sentences",
-                "state" : false
-            }
-        }
+        "progress" : 0
       },
       "Milestone18" : {
         "detail" : "This little boy is playing with the toy by pressing the buttons that make it work. ",
@@ -277,25 +151,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone18.jpg",
         "name" : "Can work toys with buttons, levers, and moving parts",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-        "submilestone" : {
-             "checkbox1" : {
-                "name" : "Buttons",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "Levers",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "Moving parts",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "Other",
-                "state" : false
-            }
-        }
+        "progress" : 0
       },
       "Milestone19" : {
         "detail" : "This image shows a little boy pretending to doctor on a woman. ",
@@ -305,25 +161,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone19.jpg",
         "name" : "Plays make-believe with dolls, animals, and people",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-        "submilestone" : {
-             "checkbox1" : {
-                "name" : "Dolls",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "Animals",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "People",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "Other",
-                "state" : false
-            }
-        }
+        "progress" : 0
       },
       "Milestone2" : {
         "detail" : "The little girl in this photo is hugging her friend. ",
@@ -341,27 +179,9 @@ export class LoginComponent {
         "video" : false,
         "id" : 20,
         "img" : "../../assets/images/milestone20.jpg",
-        "name" : "Does puzzles with 3 or 4 pieces",
+        "name" : "Does p20uzzles with 3 or 4 pieces",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-        "submilestone" : {
-             "checkbox1" : {
-                "name" : "2 pieces",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "3 pieces",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "4 pieces",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "5 pieces",
-                "state" : false
-            }
-        }
+        "progress" : 0
       },
       "Milestone21" : {
         "detail" : "By  showing his understanding of 'two, this little boy is displaying a 3-year cognitive (learning, thinking, problem-solving) milestone.",
@@ -402,26 +222,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone24.jpg",
         "name" : "Builds towers of more than 6 blocks",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-         "submilestone" : {
-             "checkbox1" : {
-                "name" : "4 blocks",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "5 blocks",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "6 blocks",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "More than 6 blocks",
-                "state" : false
-            }
-        }
-
+        "progress" : 0
       },
       "Milestone25" : {
         "detail" : "By screwing and unscrewing this jar lid, this little girl is showing a 3-year cognitive (learning, thinking, problem-solving) milestone.",
@@ -431,25 +232,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone25.jpg",
         "name" : "Screws and unscrews jar lids or turns door handle",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-        "submilestone" : {
-             "checkbox1" : {
-                "name" : "Screw jar lids",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "Unscrew jar lids",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "Turn door handle",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "Other",
-                "state" : false
-            }
-        }
+        "progress" : 0
       },
       "Milestone26" : {
         "detail" : "This little girl easily climbed up this structure.",
@@ -490,26 +273,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone29.jpg",
         "name" : "Walks up and down stairs, one foot on each step",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-        "submilestone" : {
-            "checkbox1" : {
-                "name" : "Walk up stairs",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "Walk down stairs",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "One foot on each step",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "Walk on/down stairs with help",
-                "state" : false
-            }
-        }
-
+        "progress" : 0
       },
       "Milestone3" : {
         "detail" : "These children are taking turns with the basketball",
@@ -540,25 +304,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone31.jpg",
         "name" : "Plays well with two or three children in a group (age 4 milestone)",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-         "submilestone" : {
-            "checkbox1" : {
-                "name" : "Two",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "Three",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "Four",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "Five",
-                "state" : false
-            }
-        }
+        "progress" : 0
       },
       "Milestone32" : {
         "detail" : "This little girl is cutting - snipping - with scissors, a 4-year cognitive (learning, thinking, problem-solving) milestone.",
@@ -579,9 +325,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone33.jpg",
         "name" : "Tells a story (age 4 milestone) while pretending to read",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-        
-        
+        "progress" : 0
       },
       "Milestone34" : {
         "detail" : "Detail explanations here ",
@@ -611,25 +355,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone5.jpg",
         "name" : "Understands the idea of 'mine' and 'his' or 'hers'",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-         "submilestone" : {
-            "checkbox1" : {
-                "name" : "'Mine'",
-                "state" : "false"
-            },
-             "checkbox2" : {
-                "name" : "His",
-                "state" : "false"
-            },
-             "checkbox3" : {
-                "name" : "Hers",
-                "state" : "false"
-            },
-             "checkbox4" : {
-                "name" : "Theirs",
-                "state" : "false"
-            }
-        }
+        "progress" : 0
       },
       "Milestone6" : {
         "detail" : "The little girl is being 'loving' toward her friend",
@@ -639,25 +365,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone6.jpg",
         "name" : "Shows a wide range of emotions",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-        "submilestone" : {
-            "checkbox1" : {
-                "name" : "Happy",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "Angry",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "Sad",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "Anxious",
-                "state" : false
-            }
-        }
+        "progress" : 0
       },
       "Milestone7" : {
         "detail" : "The little boy in this picture is separating easily as he says goodbye to his dad",
@@ -677,25 +385,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone8.jpg",
         "name" : "May get upset with major changes in routine",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-        "submilestone" : {
-            "checkbox1" : {
-                "name" : "Waking",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "Sleeping",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "Eating",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "Playing",
-                "state" : false
-            }
-        }
+        "progress" : 0
       },
       "Milestone9" : {
         "detail" : "In this image, a little boy is putting on his shirt.",
@@ -705,25 +395,7 @@ export class LoginComponent {
         "img" : "../../assets/images/milestone9.jpg",
         "name" : "Dresses and undresses self ",
         "notes" : "This is the note for this milestone",
-        "progress" : 0,
-        "submilestone" : {
-            "checkbox1" : {
-                "name" : "Tops",
-                "state" : false
-            },
-             "checkbox2" : {
-                "name" : "Bottoms",
-                "state" : false
-            },
-             "checkbox3" : {
-                "name" : "Socks",
-                "state" : false
-            },
-             "checkbox4" : {
-                "name" : "Shoes",
-                "state" : false
-            }
-        }
+        "progress" : 0
       }
     };
 

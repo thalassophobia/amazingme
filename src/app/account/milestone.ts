@@ -11,22 +11,8 @@ export class Milestone {
   notes: string;
   img: string;
   icon: string;
-  submilestone: Submilestone;
-}
-
-export class Submilestone {
-
-  checkbox1: Checkbox;
-  checkbox2: Checkbox;
-  checkbox3: Checkbox;
-  checkbox4: Checkbox;
-
-
-}
-
-export class Checkbox {
-
-  name: string;
-  state: boolean;
-
+  checkbox1: boolean;
+  checkbox2: boolean;
+  checkbox3: boolean;
+  checkbox4: boolean;
 }
