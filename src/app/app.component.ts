@@ -2,7 +2,7 @@ import { Component,ViewContainerRef } from '@angular/core';
 import { AngularFire, FirebaseListObservable,AuthProviders, AuthMethods } from 'angularfire2';
 
 
-
+declare var PIXI: any;
 
 
 @Component({
