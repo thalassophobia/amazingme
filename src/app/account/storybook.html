@@ -91,11 +91,11 @@
        {{percent}}% complete
     
        </span>
-       <button  md-raised-button *ngIf="tempReport" 
-          (click)="openAch(tempReport)">
-          Achievement Report
-      </button>
+       <button  md-raised-button  (click)="openGames()">
+            Play the Game
+        </button>
        </h5>
+
  </div>
 
   
@@ -110,8 +110,9 @@
     </button> -->
     <hr/>
 
-<button  md-raised-button (click)="openGame()">
-    Play the game
+<button  md-raised-button *ngIf="tempReport" 
+    (click)="openAch(tempReport)">
+    Achievement Report
 </button>
 
 </div>

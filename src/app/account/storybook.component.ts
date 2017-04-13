@@ -310,8 +310,8 @@ export class StorybookComponent implements OnInit {
       .subscribe(res => this.directPage(res));
   }
 
-  public openGame() {
-    window.location.href='http://google.com/';
+  public openGames() {
+    window.location.href='http://claudepeon.com/docs/';
   }
 
   public refreshPage(res:any) {
