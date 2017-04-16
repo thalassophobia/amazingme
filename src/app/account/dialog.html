@@ -1,21 +1,8 @@
 <md-card style="width: 450px;" >
-
-
-    
     <md-card-title>Milestone {{ milestone.id }} </md-card-title>
     <md-card-subtitle>{{ milestone.name }}</md-card-subtitle>
-
-
- 
-
-
-
-
-
     <md-card-content>I feel that George is ...</md-card-content>
     
-     
-
   <md-card-content>
        <rating [(ngModel)]="rate" [max]="max" [readonly]="isReadonly"
        (onHover)="clickOn($event)"  
@@ -27,7 +14,6 @@
        [ngStyle]="{display: (overStar && !isReadonly) ? 'inline' : 'none'}">  {{percent}}% 
        </span> 
        towards this milestone! </md-card-content>
-
 
  <md-card-content>
 
@@ -42,9 +28,6 @@
   <img md-card-image  *ngIf = "milestone.video != true"  src={{milestone.img}} style="margin-top: 5px">
 <p *ngIf = "milestone.video == true">  {{ milestone.detail }} </p>
 
-  
- 
- 
 
 <section *ngIf="milestone.id == 6">
           <md-checkbox #checkbox1   [checked]="milestone.checkbox1">Happy</md-checkbox>
@@ -56,10 +39,26 @@
            <md-checkbox #checkbox4  [checked]="milestone.checkbox4">Anxious</md-checkbox>
 </section>
 
+<section *ngIf="milestone.id == 22">
+  <button md-raised-button (click)="openGame('http://claudepeon.com/docs/shapes_game.html')">
+  Play the Game
+  </button>
+</section>
 
-  
+<section *ngIf="milestone.id == 20">
+  <button md-raised-button (click)="openGame('http://claudepeon.com/docs/puzzle_game.html')">
+  Play the Game
+  </button>
+</section>
+
+<section *ngIf="milestone.id == 10">
+  <button md-raised-button (click)="openGame('http://claudepeon.com/docs/ingredient_game.html')">
+  Play the Game
+  </button>
+</section>
+
+
 </md-card-content>
-
 
 <!-- <md-input-container style="width: 100%">
       <textarea mdInput placeholder="Notes"  [(ngModel)]="milestone.notes"  (click) = "updateNote()"></textarea>
@@ -67,9 +66,6 @@
        
          <input mdInput style = "width: 100%" placeholder="Notes"  [(ngModel)]="milestone.notes"  (click) = "updateNote()">
        <!--  <input type="text"  class="form-control"  [(ngModel)]="milestone.notes"  (click) = "updateNote()" /> -->
-
-
-
 
 <md-card-actions>
     <button md-button (click)="dialogRef.close(true)">SAVE</button>

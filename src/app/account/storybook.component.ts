@@ -64,19 +64,16 @@ export class StorybookComponent implements OnInit {
 
   constructor(
     public af: AngularFire,
-
     private router: Router,
     private dialogsService: DialogsService,
     private milestoneService: MilestoneService,  
     private viewContainerRef: ViewContainerRef,
     private achDialogsService: achDialogsService,
-    private rd: Renderer
-    ) {
+    private rd: Renderer) {
 
     af.auth.subscribe(auth => {
       console.log(auth);
       this.userID = auth.uid;
-
     });
 
 
@@ -91,7 +88,6 @@ export class StorybookComponent implements OnInit {
 
     this.pages.subscribe(queriedItems => {      
       console.log(queriedItems);  
-
       console.log("selectedPage: ", queriedItems[0]);
       this.page = queriedItems[0];
       this.onSelect(queriedItems[0]);
@@ -151,7 +147,7 @@ export class StorybookComponent implements OnInit {
   }
 
 
-  public setPage(pageNo:number):void {
+  public setPage(pageNo: number): void {
     this.currentPage = pageNo;
      this.pageSubject.next(pageNo);
      console.log("setPage:",pageNo);
@@ -171,7 +167,7 @@ export class StorybookComponent implements OnInit {
   onSelect(page): void {
     this.page = page;
 
-    if(page.milestoneID > 0) {
+    if (page.milestoneID > 0) {
       this.checklistSubject.next(page.milestoneID);
       this.showMilestone = true;
     } else {
@@ -207,8 +203,7 @@ export class StorybookComponent implements OnInit {
 
 
     let list = this.af.database.list('/userList/'+this.key+'/userLogs'+'/openDialog');
-    list.push({ name: milestone.name, time: Date(), location: "story"} );
-   
+    list.push({ name: milestone.name, time: Date(), location: "story"});
   }
 
    public openAch(report: Report) {
@@ -217,14 +212,10 @@ export class StorybookComponent implements OnInit {
       .subscribe(res => this.directPage(res));
   }
 
-  public openGames() {
-    if (this.page.milestoneID === 10) {
-      window.location.href='http://claudepeon.com/docs/ingredient_game_2.html';
-    } else if (this.page.milestoneID === 20) {
-      // window.location.href='http://claudepeon.com/docs/puzzle_game.html;
-    } else if (this.page.milestoneID === 15) {
-      // window.location.href='http://claudepeon.com/docs/shapes_game.html;
-    }
+  public openGame(gameLocation: string): void {
+    // if (this.page.milestoneID === 10) {
+      window.location.href = gameLocation;
+    // } 
   }
 
   public refreshPage(res: any) {
@@ -233,7 +224,7 @@ export class StorybookComponent implements OnInit {
 
       console.log("refreshpage");
       this.showMilestone = true;
-      } else{
+      } else {
       this.showMilestone = false;
       }
   }
